@@ -7,3 +7,4 @@
 /mc_textures_raw
 /06b-anime-dcgan.ipynb
 /gans_training.avi
+slurm-*.out
