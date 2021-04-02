@@ -5,7 +5,7 @@ import cv2
 from gan_mc import pil_loader
 
 if __name__ == '__main__':
-    files = glob.glob("mc_generated/generated-images-*.png")
+    files = glob.glob("mc_skin_generated/generated-images-*.png")
     files.sort()
 
     frame = cv2.imread(files[0])
