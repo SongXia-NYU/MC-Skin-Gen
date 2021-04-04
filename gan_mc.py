@@ -46,7 +46,7 @@ def train(retrain=False, start_idx=0):
     os.makedirs(sample_dir, exist_ok=True)
 
     fixed_latent = torch.randn(64, latent_size, 1, 1, device=device)
-    save_samples(0, fixed_latent, generator, sample_dir, stats)
+    # save_samples(0, fixed_latent, generator, sample_dir, stats)
 
     epochs = 600
 
@@ -84,8 +84,8 @@ def fit(epochs, discriminator, generator, train_dl, fixed_latent, batch_size, la
     fake_scores = []
 
     # Create optimizers
-    opt_d = torch.optim.Adam(discriminator.parameters(), lr=0.00002, betas=(0.5, 0.999))
-    opt_g = torch.optim.Adam(generator.parameters(), lr=0.00005, betas=(0.5, 0.999))
+    opt_d = torch.optim.Adam(discriminator.parameters(), lr=0.00001, betas=(0.5, 0.999))
+    opt_g = torch.optim.Adam(generator.parameters(), lr=0.00001, betas=(0.5, 0.999))
 
     for epoch in tqdm(range(epochs)):
         t_loss_d = 0.
