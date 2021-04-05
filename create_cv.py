@@ -12,7 +12,7 @@ if __name__ == '__main__':
     height, width, layers = frame.shape
 
     frameSize = (width, height)
-    out = cv2.VideoWriter('mc_gen.avi', 0, 10, frameSize)
+    out = cv2.VideoWriter('mc_gen.avi', 0, 2, frameSize)
 
     for filename in files:
         img = cv2.imread(filename)
