@@ -15,7 +15,7 @@ Data preprocessing was done in `extract_img.py`
 python gan_mc.py
 ```
 
-### 2. Generate New Image
+### 2. Generate New Skins
 
 ```commandline
 python gan_gen_mc.py
