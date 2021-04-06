@@ -30,4 +30,7 @@ By default it will generate 800 random skins but you can modify it in the code.
 python create_cv.py
 ```
 You will get: `mc_gen.avi` which shows the evolution of the generator.
+
+Randomly generated skins:
+![](mc_skin_generated/generated-images-9999.png)
  
