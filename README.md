@@ -32,5 +32,6 @@ python create_cv.py
 You will get: `mc_gen.avi` which shows the evolution of the generator.
 
 Randomly generated skins:
+
 ![](mc_skin_generated/generated-images-9999.png)
  
