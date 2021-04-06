@@ -9,7 +9,7 @@ Data from [there](https://www.kaggle.com/alxmamaev/minecraft-skins/activity) wit
 
 Data preprocessing was done in `extract_img.py`
 
-### 1. Model Training (Trained model included, you can skip to #2)
+### 1. Model Training (Trained model included, so you can skip to #2)
 
 ```commandline
 python gan_mc.py
